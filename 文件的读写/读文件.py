@@ -1,0 +1,7 @@
+file1 = open(r'D:\wangke\VS_CODE\python\风变编程\文件的读写\read.txt','r',encoding='utf-8') 
+#filecontent = file1.read()
+filelines = file1.readlines()
+file1.close()
+#print(filecontent)
+#print('================\n')
+print(filelines)
