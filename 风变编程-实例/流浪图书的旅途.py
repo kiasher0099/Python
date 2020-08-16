@@ -1,3 +1,12 @@
+'''
+Description: 类的创建和运用 
+Version: Demo.0.0
+Autor: Kiasher
+Date: 2020-07-29 11:27:42
+LastEditors: Kiasher
+LastEditTime: 2020-08-09 12:46:33
+'''
+
 class Book(object):
     def __init__(self, name, author, comment, state = 0):
         self.name = name
@@ -71,7 +80,6 @@ class BookManager(object):
         name = input('请输入书籍的名称：')
         res = self.check_book(name)
         # 将name作为参数调用check_book方法，并将返回值赋值给变量res
-
         if res != None:
         # 如果返回值不等于None值，即返回的是实例对象
             if res.state == 1:

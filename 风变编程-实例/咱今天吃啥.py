@@ -1,5 +1,12 @@
-#选择困难症状；
-# 帮你做选择之我要吃什么
+'''
+Description: random模块运用实例，在已知菜单中做选择，后续可修改为爬虫获取网上人气饭店，再随机做出选择 
+Version: Demo.0.0
+Autor: Kiasher
+Date: 2020-07-29 11:27:42
+LastEditors: Kiasher
+LastEditTime: 2020-08-09 12:42:06
+'''
+
 import random
 
 # 将需要用到的表格和变量放在开头
